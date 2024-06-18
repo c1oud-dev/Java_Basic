@@ -9,9 +9,9 @@
 
 ### 📂 목차
 #### 1. 클래스와 데이터(Class, Data)
-- 2024.06.14 강의 듣기 완료
+- 2024-06-14 강의 듣기 완료
 #### 2. 기본형과 참조형(Primitive Type, Reference Type)
-
+- 2024-06-18 강의 듣기 완료
 #### 3. 객체 지향 프로그래밍(Object-Oriented Programming)
 
 #### 4. 생성자(Constructor)
