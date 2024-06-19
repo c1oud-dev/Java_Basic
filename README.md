@@ -13,7 +13,7 @@
 #### 2. 기본형과 참조형(Primitive Type, Reference Type)
 - 2024-06-18 강의 듣기 완료
 #### 3. 객체 지향 프로그래밍(Object-Oriented Programming)
-
+- 2024-06-19 강의 듣기 완료
 #### 4. 생성자(Constructor)
 
 #### 5. 패키지(Pacakage)
