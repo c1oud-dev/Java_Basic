@@ -15,7 +15,7 @@
 #### 3. 객체 지향 프로그래밍(Object-Oriented Programming)
 - 2024-06-19 강의 듣기 완료
 #### 4. 생성자(Constructor)
-
+- 2024-06-20 강의 듣기 완료
 #### 5. 패키지(Pacakage)
 
 #### 6. 접근 제어자(Access Modifier)

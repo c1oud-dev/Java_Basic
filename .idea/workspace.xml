@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Basic type, Reference type&#10;varchange, null, exception, methodchange&#10;productorder refactoring solution and add scanner">
+    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution">
+      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefaultMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberInitMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberInitMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberInitMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberThis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -31,30 +45,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="construct" />
       <recent name="oop1.ex" />
       <recent name="oop1" />
       <recent name="ref.ex" />
       <recent name="ref" />
-      <recent name="class1.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountMain">
-    <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ex.AccountMain" />
+  <component name="RunManager" selected="Application.BookMain">
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.ex.*" />
+          <option name="PATTERN" value="construct.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicPlayerMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.MusicPlayerMain4" />
+    <configuration name="ConstructMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ConstructMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleProceduralMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ex.RectangleProceduralMain" />
+    <configuration name="ConstructMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ConstructMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.ex.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ValueDataMain" />
+    <configuration name="MemberInitMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.MemberInitMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ValueObjectMain" />
+    <configuration name="MemberInitMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.MemberInitMain3" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountMain" />
-        <item itemvalue="Application.RectangleProceduralMain" />
-        <item itemvalue="Application.MusicPlayerMain4" />
-        <item itemvalue="Application.ValueObjectMain" />
-        <item itemvalue="Application.ValueDataMain" />
+        <item itemvalue="Application.BookMain" />
+        <item itemvalue="Application.ConstructMain2" />
+        <item itemvalue="Application.ConstructMain1" />
+        <item itemvalue="Application.MemberInitMain3" />
+        <item itemvalue="Application.MemberInitMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718690863455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution">
+      <created>1718770923456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718770923456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +201,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="[Java Basic] Class and Data&#10;class declaration, how to use&#10;moviewreview solution&#10;productorder solution" />
     <MESSAGE value="[Java Basic] Basic type, Reference type&#10;varchange, null, exception, methodchange&#10;productorder refactoring solution and add scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Basic type, Reference type&#10;varchange, null, exception, methodchange&#10;productorder refactoring solution and add scanner" />
+    <MESSAGE value="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
