@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution">
-      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefaultMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberInitMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberInitMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberInitMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/MemberThis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/ex/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/ex/BookMain.java" afterDir="false" />
+    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Constructor&#10;1. The reason why constructor is necessary&#10;&#10;2. this method&#10;&#10;3. Use constructor in code&#10;&#10;4. Overloading and this() method&#10;&#10;5. Book solution">
+      <change afterPath="$PROJECT_DIR$/src/pack/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/a/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/b/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -63,14 +57,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pack" />
       <recent name="construct" />
       <recent name="oop1.ex" />
       <recent name="oop1" />
       <recent name="ref.ex" />
-      <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookMain">
+  <component name="RunManager" selected="Application.PackageMain3">
     <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
       <module name="java-basic" />
@@ -110,19 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberInitMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="construct.MemberInitMain2" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="construct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberInitMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="construct.MemberInitMain3" />
       <module name="java-basic" />
@@ -136,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PackageMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pack.PackageMain3" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PackageMain3" />
         <item itemvalue="Application.BookMain" />
         <item itemvalue="Application.ConstructMain2" />
         <item itemvalue="Application.ConstructMain1" />
         <item itemvalue="Application.MemberInitMain3" />
-        <item itemvalue="Application.MemberInitMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718770923456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[Java Basic] Constructor&#10;1. The reason why constructor is necessary&#10;&#10;2. this method&#10;&#10;3. Use constructor in code&#10;&#10;4. Overloading and this() method&#10;&#10;5. Book solution">
+      <created>1718884674495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718884674495</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +203,8 @@
     <MESSAGE value="[Java Basic] Class and Data&#10;class declaration, how to use&#10;moviewreview solution&#10;productorder solution" />
     <MESSAGE value="[Java Basic] Basic type, Reference type&#10;varchange, null, exception, methodchange&#10;productorder refactoring solution and add scanner" />
     <MESSAGE value="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution" />
+    <MESSAGE value="[Java Basic] Constructor&#10;1. The reason why constructor is necessary&#10;&#10;2. this method&#10;&#10;3. Use constructor in code&#10;&#10;4. Overloading and this() method&#10;&#10;5. Book solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Constructor&#10;1. The reason why constructor is necessary&#10;&#10;2. this method&#10;&#10;3. Use constructor in code&#10;&#10;4. Overloading and this() method&#10;&#10;5. Book solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
