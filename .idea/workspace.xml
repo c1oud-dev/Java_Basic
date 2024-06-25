@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Package&#10;1. How to use package&#10;&#10;2. Import &#10;&#10;3. Package rule&#10;&#10;4. Use the package">
-      <change afterPath="$PROJECT_DIR$/src/access/BanckAccountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/SpeakerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClassInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/AccessOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/PublicClassOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/CounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/MaxCounter.java" afterDir="false" />
+    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/ex/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +60,7 @@
       <recent name="ref.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterMain">
+  <component name="RunManager" selected="Application.ShoppingCartMain">
     <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="java-basic" />
@@ -109,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PackageMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pack.PackageMain3" />
+    <configuration name="ShoppingCartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.ex.ShoppingCartMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pack.*" />
+          <option name="PATTERN" value="access.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingCartMain" />
         <item itemvalue="Application.CounterMain" />
         <item itemvalue="Application.BanckAccountMain" />
         <item itemvalue="Application.AccessInnerMain" />
         <item itemvalue="Application.SpeakerMain" />
-        <item itemvalue="Application.PackageMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718940318839</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution">
+      <created>1719121683349</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719121683349</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +215,8 @@
     <MESSAGE value="[Java Basic] Object-Oriented Programming&#10;1. Procedural Programming &#10;refactoring(data bundling, method extraction) &#10;2. RectangleProcedural, Account solution" />
     <MESSAGE value="[Java Basic] Constructor&#10;1. The reason why constructor is necessary&#10;&#10;2. this method&#10;&#10;3. Use constructor in code&#10;&#10;4. Overloading and this() method&#10;&#10;5. Book solution" />
     <MESSAGE value="[Java Basic] Package&#10;1. How to use package&#10;&#10;2. Import &#10;&#10;3. Package rule&#10;&#10;4. Use the package" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Package&#10;1. How to use package&#10;&#10;2. Import &#10;&#10;3. Package rule&#10;&#10;4. Use the package" />
+    <MESSAGE value="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

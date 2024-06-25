@@ -16,6 +16,5 @@ public class ShoppingCartMain {
         cart.addItem(item2);
 
         cart.displayItems();
-
     }
 }
