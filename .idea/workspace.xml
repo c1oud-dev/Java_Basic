@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution">
+    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Access Modifier &#10;Q.ShoppingCart resolving">
+      <change afterPath="$PROJECT_DIR$/src/memory/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/JavaMemoryMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/JavaMemoryMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/Data1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/Data2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/Data3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/DataCountMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/DataCountMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static1/DataCountMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoDataMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/DecoUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/ex/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/ex/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtilsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access/ex/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +70,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="static2" />
+      <recent name="static1" />
       <recent name="pack" />
       <recent name="construct" />
       <recent name="oop1.ex" />
-      <recent name="oop1" />
-      <recent name="ref.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShoppingCartMain">
-    <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
+  <component name="RunManager" selected="Application.MathArrayUtilsMain">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.ex.CarMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.a.*" />
+          <option name="PATTERN" value="static2.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BanckAccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.BanckAccountMain" />
+    <configuration name="DecoDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoDataMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.ex.CounterMain" />
+    <configuration name="DecoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.ex.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.ex.ShoppingCartMain" />
+    <configuration name="DecoMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.DecoMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.ex.*" />
+          <option name="PATTERN" value="static2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeakerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.SpeakerMain" />
+    <configuration name="MathArrayUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="static2.ex.MathArrayUtilsMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.*" />
+          <option name="PATTERN" value="static2.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShoppingCartMain" />
-        <item itemvalue="Application.CounterMain" />
-        <item itemvalue="Application.BanckAccountMain" />
-        <item itemvalue="Application.AccessInnerMain" />
-        <item itemvalue="Application.SpeakerMain" />
+        <item itemvalue="Application.MathArrayUtilsMain" />
+        <item itemvalue="Application.CarMain" />
+        <item itemvalue="Application.DecoDataMain" />
+        <item itemvalue="Application.DecoMain2" />
+        <item itemvalue="Application.DecoMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719121683349</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Java Basic] Access Modifier &#10;Q.ShoppingCart resolving">
+      <created>1719314733772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719314733772</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +240,8 @@
     <MESSAGE value="[Java Basic] Constructor&#10;1. The reason why constructor is necessary&#10;&#10;2. this method&#10;&#10;3. Use constructor in code&#10;&#10;4. Overloading and this() method&#10;&#10;5. Book solution" />
     <MESSAGE value="[Java Basic] Package&#10;1. How to use package&#10;&#10;2. Import &#10;&#10;3. Package rule&#10;&#10;4. Use the package" />
     <MESSAGE value="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Access Modifier&#10;1. How to use the access controller by controlling the volume of the speaker&#10;&#10;2. Access Controller Type&#10;- private, default, protected, public&#10;&#10;3. How to use access controllers in fields and methods&#10;&#10;4. How to use the access controller at the class level&#10;&#10;5. Encapsulation(BankAccount)&#10;&#10;6. MaxCounter, ShoppingCart solution" />
+    <MESSAGE value="[Java Basic] Access Modifier &#10;Q.ShoppingCart resolving" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Access Modifier &#10;Q.ShoppingCart resolving" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
