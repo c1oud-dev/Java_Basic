@@ -4,38 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] final&#10;&#10;1. fianl variable &#10;- Reason for using final variable&#10;&#10;2. fianl variable and constant&#10;- constant keyword&#10;- use Upperword&#10;&#10;3. final variable and reference">
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/ExtendsAccessMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/child/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/access/parent/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex/ShopMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex1/GasCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex2/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex2/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex2/GasCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/GasCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/ex3/HydrogenCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/overriding/GasCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super1/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super1/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super1/SuperMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super2/ClassC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extends1/super2/Super2Main.java" afterDir="false" />
+    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Inheritance&#10;&#10;1. An inheritance&#10;- the necessity of inheritance&#10;&#10;2. An inheritance relationship&#10;- keyword 'extends'&#10;- superclass and sub_class&#10;- Java doesn't support multiple inheritances.&#10;&#10;3. Inheritance and Memory Structure&#10;- Creating objects in inheritance relationships creates both parent and child classes.&#10;- When calling an inheritance relationship, the target type must be determined and the target type is found through the caller's type.&#10;- If the feature is not found in the current type, find it in the parent type, run it, and fail to find the feature, a compilation error occurs&#10;&#10;4. Inheritance and Add function&#10;&#10;5. Inheritance and Method Overriding&#10;&#10;6. Inheritance and Access Control&#10;- public : Allow all external calls&#10;- protected : Inheritance relationship can be called even if the package is the same or different&#10;- default : Can only be called in the same package&#10;- private : All external calls not allowed&#10;&#10;7. super - Parent Reference&#10;&#10;8. super - Constructor&#10;&#10;9. ShopMain Solution">
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/PolyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/OverridingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -63,23 +44,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/study/inflearn/java-basic/src/extends1/overriding",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/study/inflearn/java-basic/src/extends1/overriding&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study\inflearn\java-basic\src\extends1\overriding" />
@@ -92,13 +73,13 @@
       <recent name="static1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShopMain">
-    <configuration name="ExtendsAccessMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.access.ExtendsAccessMain" />
+  <component name="RunManager" selected="Application.OverridingMain">
+    <configuration name="CastingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.access.*" />
+          <option name="PATTERN" value="poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.ex.ShopMain" />
+    <configuration name="CastingMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.ex.*" />
+          <option name="PATTERN" value="poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.super2.Super2Main" />
+    <configuration name="CastingMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain4" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.super2.*" />
+          <option name="PATTERN" value="poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.super1.SuperMain" />
+    <configuration name="CastingMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain5" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.super1.*" />
+          <option name="PATTERN" value="poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="extends1.overriding.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extends1.overriding.CarMain" />
+    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.overriding.OverridingMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extends1.overriding.*" />
+          <option name="PATTERN" value="poly.overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShopMain" />
-        <item itemvalue="Application.Super2Main" />
-        <item itemvalue="Application.SuperMain" />
-        <item itemvalue="Application.ExtendsAccessMain" />
-        <item itemvalue="Application.extends1.overriding.CarMain" />
+        <item itemvalue="Application.OverridingMain" />
+        <item itemvalue="Application.CastingMain5" />
+        <item itemvalue="Application.CastingMain4" />
+        <item itemvalue="Application.CastingMain2" />
+        <item itemvalue="Application.CastingMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724595544912</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[Java Basic] Inheritance&#10;&#10;1. An inheritance&#10;- the necessity of inheritance&#10;&#10;2. An inheritance relationship&#10;- keyword 'extends'&#10;- superclass and sub_class&#10;- Java doesn't support multiple inheritances.&#10;&#10;3. Inheritance and Memory Structure&#10;- Creating objects in inheritance relationships creates both parent and child classes.&#10;- When calling an inheritance relationship, the target type must be determined and the target type is found through the caller's type.&#10;- If the feature is not found in the current type, find it in the parent type, run it, and fail to find the feature, a compilation error occurs&#10;&#10;4. Inheritance and Add function&#10;&#10;5. Inheritance and Method Overriding&#10;&#10;6. Inheritance and Access Control&#10;- public : Allow all external calls&#10;- protected : Inheritance relationship can be called even if the package is the same or different&#10;- default : Can only be called in the same package&#10;- private : All external calls not allowed&#10;&#10;7. super - Parent Reference&#10;&#10;8. super - Constructor&#10;&#10;9. ShopMain Solution">
+      <created>1724737300432</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724737300433</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +260,8 @@
     <MESSAGE value="[Java Basic] Access Modifier &#10;Q.ShoppingCart resolving" />
     <MESSAGE value="[Java Basic] Java Memory Structure and Static&#10;&#10;1. Java Memory Structure&#10;&#10;2. Stack and Queue&#10;&#10;3. Stack Area&#10;&#10;4. Stack and Queue Area&#10;&#10;5. static variable&#10;&#10;6. static Method&#10;&#10;7. Solution&#10; - Car&#10; - MathArrayUtils" />
     <MESSAGE value="[Java Basic] final&#10;&#10;1. fianl variable &#10;- Reason for using final variable&#10;&#10;2. fianl variable and constant&#10;- constant keyword&#10;- use Upperword&#10;&#10;3. final variable and reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] final&#10;&#10;1. fianl variable &#10;- Reason for using final variable&#10;&#10;2. fianl variable and constant&#10;- constant keyword&#10;- use Upperword&#10;&#10;3. final variable and reference" />
+    <MESSAGE value="[Java Basic] Inheritance&#10;&#10;1. An inheritance&#10;- the necessity of inheritance&#10;&#10;2. An inheritance relationship&#10;- keyword 'extends'&#10;- superclass and sub_class&#10;- Java doesn't support multiple inheritances.&#10;&#10;3. Inheritance and Memory Structure&#10;- Creating objects in inheritance relationships creates both parent and child classes.&#10;- When calling an inheritance relationship, the target type must be determined and the target type is found through the caller's type.&#10;- If the feature is not found in the current type, find it in the parent type, run it, and fail to find the feature, a compilation error occurs&#10;&#10;4. Inheritance and Add function&#10;&#10;5. Inheritance and Method Overriding&#10;&#10;6. Inheritance and Access Control&#10;- public : Allow all external calls&#10;- protected : Inheritance relationship can be called even if the package is the same or different&#10;- default : Can only be called in the same package&#10;- private : All external calls not allowed&#10;&#10;7. super - Parent Reference&#10;&#10;8. super - Constructor&#10;&#10;9. ShopMain Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Inheritance&#10;&#10;1. An inheritance&#10;- the necessity of inheritance&#10;&#10;2. An inheritance relationship&#10;- keyword 'extends'&#10;- superclass and sub_class&#10;- Java doesn't support multiple inheritances.&#10;&#10;3. Inheritance and Memory Structure&#10;- Creating objects in inheritance relationships creates both parent and child classes.&#10;- When calling an inheritance relationship, the target type must be determined and the target type is found through the caller's type.&#10;- If the feature is not found in the current type, find it in the parent type, run it, and fail to find the feature, a compilation error occurs&#10;&#10;4. Inheritance and Add function&#10;&#10;5. Inheritance and Method Overriding&#10;&#10;6. Inheritance and Access Control&#10;- public : Allow all external calls&#10;- protected : Inheritance relationship can be called even if the package is the same or different&#10;- default : Can only be called in the same package&#10;- private : All external calls not allowed&#10;&#10;7. super - Parent Reference&#10;&#10;8. super - Constructor&#10;&#10;9. ShopMain Solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
