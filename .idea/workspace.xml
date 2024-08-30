@@ -4,42 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism application&#10;&#10;2. Abstract class&#10;&#10;3. Interface&#10;&#10;4. Interface - Multiple implementation&#10;&#10;5. Class and interface application">
-      <change afterPath="$PROJECT_DIR$/src/poly/diamond/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/diamond/DiamondMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/diamond/InterfaceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/diamond/InterfaceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/AnimalSoundMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex1/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/AnimalPolyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/AnimalPolyMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/AnimalPolyMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/AbstractMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/AbstractMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex4/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex5/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex5/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex5/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex5/InterfaceAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex5/InterfaceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex6/AbstractAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poly/ex6/Fly.java" afterDir="false" />
+    <list default="true" id="10ae204e-e7de-4743-bbb7-9fa636b4d27f" name="Changes" comment="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism application&#10;- ex1 : Problems when polymorphism is not used &#10;- ex2 : Add inheritance&#10;- Deduplication using arrays and for statements&#10;&#10;2. Abstract class&#10;- ex3 : Abstract class and method&#10;- ex4 : a pure abstract class(Abstract class where all methods are abstract methods)&#10;&#10;3. Interface&#10;- ex5 : It is similar to a pure abstract class.&#10;- keyword : interface, implements(omission abstract class, public abstract)&#10;&#10;4. Interface - Multiple implementation&#10;&#10;5. Class and interface application">
+      <change afterPath="$PROJECT_DIR$/src/poly/car0/CarMain0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car0/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car0/K3Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car0/Model3Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/CarMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/K3Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/car1/Model3Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay0/KakaoPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay0/NaverPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay0/PayMain0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay0/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/DefaultPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/KakaoPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/NaverPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/PayMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/pay1/PayStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/sender/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/sender/FaceBookSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/sender/SendMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/sender/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/ex/sender/SmsSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,20 +84,20 @@
       <recent name="C:\study\inflearn\java-basic\src\extends1\overriding" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poly.ex.pay1" />
       <recent name="poly.ex2" />
       <recent name="extends1.overriding" />
       <recent name="extends1.ex3" />
       <recent name="final1" />
-      <recent name="static2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SoundFlyMain">
-    <configuration name="AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex3.AbstractMain" />
+  <component name="RunManager" selected="Application.PayMain1">
+    <configuration name="CarMain0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.car0.CarMain0" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex3.*" />
+          <option name="PATTERN" value="poly.car0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiamondMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.diamond.DiamondMain" />
+    <configuration name="CarMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.car1.CarMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.diamond.*" />
+          <option name="PATTERN" value="poly.car1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex5.InterfaceMain" />
+    <configuration name="PayMain0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.ex.pay0.PayMain0" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex5.*" />
+          <option name="PATTERN" value="poly.ex.pay1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoundFlyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex6.SoundFlyMain" />
+    <configuration name="PayMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.ex.pay1.PayMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex6.*" />
+          <option name="PATTERN" value="poly.ex.pay1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="poly.ex4.AbstractMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poly.ex4.AbstractMain" />
+    <configuration name="SendMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.ex.sender.SendMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poly.ex4.*" />
+          <option name="PATTERN" value="poly.ex.sender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SoundFlyMain" />
-        <item itemvalue="Application.DiamondMain" />
-        <item itemvalue="Application.InterfaceMain" />
-        <item itemvalue="Application.poly.ex4.AbstractMain" />
-        <item itemvalue="Application.AbstractMain" />
+        <item itemvalue="Application.PayMain1" />
+        <item itemvalue="Application.PayMain0" />
+        <item itemvalue="Application.SendMain" />
+        <item itemvalue="Application.CarMain1" />
+        <item itemvalue="Application.CarMain0" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724912165784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism application&#10;- ex1 : Problems when polymorphism is not used &#10;- ex2 : Add inheritance&#10;- Deduplication using arrays and for statements&#10;&#10;2. Abstract class&#10;- ex3 : Abstract class and method&#10;- ex4 : a pure abstract class(Abstract class where all methods are abstract methods)&#10;&#10;3. Interface&#10;- ex5 : It is similar to a pure abstract class.&#10;- keyword : interface, implements(omission abstract class, public abstract)&#10;&#10;4. Interface - Multiple implementation&#10;&#10;5. Class and interface application">
+      <created>1724918987400</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724918987400</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,7 +294,8 @@
     <MESSAGE value="[Java Basic] final&#10;&#10;1. fianl variable &#10;- Reason for using final variable&#10;&#10;2. fianl variable and constant&#10;- constant keyword&#10;- use Upperword&#10;&#10;3. final variable and reference" />
     <MESSAGE value="[Java Basic] Inheritance&#10;&#10;1. An inheritance&#10;- the necessity of inheritance&#10;&#10;2. An inheritance relationship&#10;- keyword 'extends'&#10;- superclass and sub_class&#10;- Java doesn't support multiple inheritances.&#10;&#10;3. Inheritance and Memory Structure&#10;- Creating objects in inheritance relationships creates both parent and child classes.&#10;- When calling an inheritance relationship, the target type must be determined and the target type is found through the caller's type.&#10;- If the feature is not found in the current type, find it in the parent type, run it, and fail to find the feature, a compilation error occurs&#10;&#10;4. Inheritance and Add function&#10;&#10;5. Inheritance and Method Overriding&#10;&#10;6. Inheritance and Access Control&#10;- public : Allow all external calls&#10;- protected : Inheritance relationship can be called even if the package is the same or different&#10;- default : Can only be called in the same package&#10;- private : All external calls not allowed&#10;&#10;7. super - Parent Reference&#10;&#10;8. super - Constructor&#10;&#10;9. ShopMain Solution" />
     <MESSAGE value="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism&#10;- Polymorphic Reference&#10;- Method overriding&#10;&#10;2. Polymorphism and Casting&#10;- upcasting : Change to parent type&#10;- downcasting : Change to child type&#10;&#10;3. Types of casting&#10;- Temporary casting&#10;&#10;4. Down_casting and Precaution&#10;&#10;5. Instanceof&#10;- When you want to determine the instance type that the variable refers to&#10;&#10;6. Polymorphism and Method overriding&#10;- Overridden methods always take precedence." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism&#10;- Polymorphic Reference&#10;- Method overriding&#10;&#10;2. Polymorphism and Casting&#10;- upcasting : Change to parent type&#10;- downcasting : Change to child type&#10;&#10;3. Types of casting&#10;- Temporary casting&#10;&#10;4. Down_casting and Precaution&#10;&#10;5. Instanceof&#10;- When you want to determine the instance type that the variable refers to&#10;&#10;6. Polymorphism and Method overriding&#10;- Overridden methods always take precedence." />
+    <MESSAGE value="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism application&#10;- ex1 : Problems when polymorphism is not used &#10;- ex2 : Add inheritance&#10;- Deduplication using arrays and for statements&#10;&#10;2. Abstract class&#10;- ex3 : Abstract class and method&#10;- ex4 : a pure abstract class(Abstract class where all methods are abstract methods)&#10;&#10;3. Interface&#10;- ex5 : It is similar to a pure abstract class.&#10;- keyword : interface, implements(omission abstract class, public abstract)&#10;&#10;4. Interface - Multiple implementation&#10;&#10;5. Class and interface application" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Java Basic] Polymorphism1&#10;&#10;1. Polymorphism application&#10;- ex1 : Problems when polymorphism is not used &#10;- ex2 : Add inheritance&#10;- Deduplication using arrays and for statements&#10;&#10;2. Abstract class&#10;- ex3 : Abstract class and method&#10;- ex4 : a pure abstract class(Abstract class where all methods are abstract methods)&#10;&#10;3. Interface&#10;- ex5 : It is similar to a pure abstract class.&#10;- keyword : interface, implements(omission abstract class, public abstract)&#10;&#10;4. Interface - Multiple implementation&#10;&#10;5. Class and interface application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
